@@ -63,6 +63,7 @@ export const games = [
 
 export const reviews = [
   {
+    id: 1,
     author_id: 1,
     game_id: 1,
     title: 'Awesome Game!',
@@ -70,6 +71,7 @@ export const reviews = [
       'I absolutely loved playing Game Zero. The graphics are stunning, and the gameplay is immersive. Highly recommended!',
   },
   {
+    id: 2,
     author_id: 2,
     game_id: 3,
     title: 'Great Experience',
@@ -77,6 +79,7 @@ export const reviews = [
       'Game Three provides a great gaming experience. The storyline is captivating, and the mechanics are well-polished.',
   },
   {
+    id: 3,
     author_id: 3,
     game_id: 6,
     title: 'Must-play on Switch',
@@ -84,6 +87,7 @@ export const reviews = [
       'Game Six is a must-play on the Nintendo Switch. The controls are smooth, and the portability adds to the overall enjoyment.',
   },
   {
+    id: 4,
     author_id: 5,
     game_id: 1,
     title: 'Fun for Everyone',
@@ -91,6 +95,7 @@ export const reviews = [
       "Game One is a blast to play. Whether you're a casual gamer or a hardcore enthusiast, there's something for everyone.",
   },
   {
+    id: 5,
     author_id: 2,
     game_id: 4,
     title: 'Top-Notch Storytelling',
@@ -98,6 +103,7 @@ export const reviews = [
       "The storytelling in Game Four is top-notch. It kept me hooked from start to finish, and I can't wait for a sequel!",
   },
   {
+    id: 6,
     author_id: 3,
     game_id: 9,
     title: 'Xbox Exclusive Gem',
@@ -105,6 +111,7 @@ export const reviews = [
       'As an Xbox gamer, I can say that Game Nine is a true gem. The graphics on the Xbox are breathtaking, and the gameplay is addictive.',
   },
   {
+    id: 7,
     author_id: 4,
     game_id: 5,
     title: 'Spectacular Visuals',
@@ -112,6 +119,7 @@ export const reviews = [
       "The visuals in Game Five are spectacular. It's a visual treat for anyone who appreciates stunning graphics in games.",
   },
   {
+    id: 8,
     author_id: 5,
     game_id: 7,
     title: 'Nostalgia Trip',
