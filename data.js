@@ -1,4 +1,4 @@
-export const games = [
+export const gamesData = [
   {
     id: 1,
     name: 'Epic Odyssey',
@@ -61,7 +61,7 @@ export const games = [
   },
 ];
 
-export const reviews = [
+export const reviewsData = [
   {
     id: 1,
     author_id: 1,
@@ -128,7 +128,7 @@ export const reviews = [
   },
 ];
 
-export const authors = [
+export const authorsData = [
   {
     id: 1,
     name: 'John Developer',
