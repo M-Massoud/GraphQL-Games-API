@@ -31,4 +31,17 @@ export const typeDefs = `#graphql
     authors: [Author]
     author(id: ID!): Author
   }
+
+  type Mutation {
+    addGame(game: AddGameInput!): Game
+    deleteGame(id: ID!): [Game]
+
+  }
+
+  input AddGameInput {
+    id:ID!
+    name: String!
+    release_year: String!
+    platforms: [String!]!
+  }
 `;

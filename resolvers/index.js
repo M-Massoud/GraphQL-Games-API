@@ -24,4 +24,20 @@ export const resolvers = {
       return gamesData.find(game => game.id === parent.game_id);
     },
   },
+
+  Mutation: {
+    addGame(parent, args) {
+      const addedGame = {
+        id: args.game.id,
+        name: args.game.name,
+        release_year: args.game.release_year,
+        platforms: args.game.platforms,
+      };
+      gamesData.push(addedGame);
+      return addedGame;
+    },
+    deleteGame(parent, args) {
+      return gamesData.filter(game => game.id != args.id);
+    },
+  },
 };
